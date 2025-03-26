@@ -1,0 +1,69 @@
+# Python项目标准.gitignore
+
+# 字节编译/优化/DLL文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 环境与配置
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 项目特定文件
+api_keys.json
+config.local.py
+*.db
+*.sqlite3
+logs/
+tmp/
+
+# 大型模型文件和数据
+*.model
+*.bin
+data/raw/
+data/processed/
+models/checkpoints/ 

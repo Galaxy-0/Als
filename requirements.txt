@@ -1,0 +1,49 @@
+# 核心依赖
+fastapi>=0.103.1
+uvicorn>=0.23.2
+pydantic>=2.3.0
+python-dotenv>=1.0.0
+loguru>=0.7.0
+
+# AI和LLM相关
+langchain>=0.0.267
+langchain-experimental>=0.0.16
+pyautogen>=0.1.14
+chromadb>=0.4.14
+pydantic>=2.3.0
+openai>=1.3.0
+tiktoken>=0.5.1
+anthropic>=0.5.0  # 可选，使用Anthropic API
+
+# 数据处理和存储
+sqlalchemy>=2.0.20
+alembic>=1.12.0
+sqlite3>=3.41.2
+faiss-cpu>=1.7.4  # 向量搜索库
+numpy>=1.24.3
+pandas>=2.0.3
+
+# HTTP和API工具
+httpx>=0.24.1
+requests>=2.31.0
+python-multipart>=0.0.6
+pyjwt>=2.8.0
+
+# 消息队列(可选)
+# pika>=1.3.2  # RabbitMQ客户端
+# redis>=5.0.0
+
+# 异步和并发
+aiohttp>=3.8.5
+asyncio>=3.4.3
+
+# 测试工具
+pytest>=7.4.2
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+
+# 开发工具
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.5.1 
